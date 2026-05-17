@@ -28,6 +28,7 @@ export type QueryFilter<T extends Record<string, any>> = {
     | { $lte: T[K] }
     | { $in: T[K][] }
     | { $nin: T[K][] }
+    | { $exists: boolean }
     | { $regex: RegExp | string };
 };
 

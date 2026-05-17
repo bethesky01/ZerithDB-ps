@@ -104,16 +104,16 @@ export default function LandingPage() {
             <span className="font-semibold text-xl tracking-tight">ZerithDB</span>
           </div>
           <nav className="hidden lg:flex items-center gap-5 xl:gap-8 text-sm font-medium text-muted-foreground">
-            <Link href="/docs" className="hover:text-black transition-colors font-medium">
+            <Link href="/docs" className="dark:hover:text-white transition-colors font-medium">
               Docs
             </Link>
-            <Link href="#features" className="hover:text-black transition-colors">
+            <Link href="#features" className="dark:hover:text-white transition-colors">
               Features
             </Link>
-            <Link href="#how-it-works" className="hover:text-black transition-colors">
+          <Link href="#how-it-works" className="dark:hover:text-white transition-colors">
               How it works
             </Link>
-            <Link href="#compare" className="hover:text-black transition-colors">
+            <Link href="#compare" className="dark:hover:text-white transition-colors">
               Compare
             </Link>
             <Link
